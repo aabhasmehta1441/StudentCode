@@ -12,6 +12,7 @@ package sw_week3;
 public class Student {
     private int id;
     private String firstName;
+    public int maxCourse;
 
     /**
      * @return the id
