@@ -13,6 +13,7 @@ public class Student {
     private int id;
     private String firstName;
     public int maxCourse;
+    private boolean partTime;
 
     /**
      * @return the id
@@ -40,5 +41,19 @@ public class Student {
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    /**
+     * @return the partTime
+     */
+    public boolean isPartTime() {
+        return partTime;
+    }
+
+    /**
+     * @param partTime the partTime to set
+     */
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
     }
 }
