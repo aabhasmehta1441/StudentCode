@@ -19,6 +19,7 @@ public class SW_week3 {
         Student s1 = new Student();
         s1.setId(991542302);
         s1.setFirstName("Aabhas");
+        System.out.println("bye");
     }
     
 }
